@@ -3,7 +3,7 @@ source "https://rubygems.org"
 # A recent update to the json gem (version 3.0.2) changed a method signature that the version of
 # Active Support (a core Rails library) was relying on. This mismatch causes an ArgumentError
 # when Rails tries to process your request, resulting in the 500 error
-gem "json", "< 3.0.0"
+gem "json", "< 4.0.0"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 8.1.3", ">= 8.1.3.1"
